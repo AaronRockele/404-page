@@ -1,11 +1,60 @@
 body {
-    background-color: grey;
+    background-color: #3c6fc1;
     margin: 0;
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
 }
 
-#header {
-    width: 100%;
-    height: 20%;
-    background-color: white;
+#TheError {
+    height: 600px;
+    width: 75%;
+    margin-top: 5%;
+    border: 4px solid grey;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3c6fc1;
+
 }
 
+#TheError h1 {
+    font-size: 6em;
+    color: white;
+    font-family: Courier New;
+}
+
+#TheError h2 {
+    color: white;
+    font-family: Courier New;
+}
+
+#TheError img {
+    height: 40%;
+    width: auto;
+    margin-top: 4%;
+    margin-left: -50%;
+}
+
+.button {
+    position: absolute;
+    height: 6%;
+    width: 14%;
+    border: 1px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    padding-top: 0.5%;
+    font-family: courier new;
+    margin-top: 10%;
+    background-color: #3c6fc1;
+}
+
+.button:hover {
+    background-color: #7da8ed;
+}
